@@ -4,3 +4,6 @@
 [submodule "phase-2-System-Calls"]
 	path = phase-2-System-Calls
 	url = https://github.com/matahho/OS_LAB2
+[submodule "phase-3-Scheduler"]
+	path = phase-3-Scheduler
+	url = https://github.com/matahho/OS_LAB3
