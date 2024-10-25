@@ -7,3 +7,6 @@
 [submodule "phase-3-Scheduler"]
 	path = phase-3-Scheduler
 	url = https://github.com/matahho/OS_LAB3
+[submodule "phase-4-Synchronization-and-CPU-coherency"]
+	path = phase-4-Synchronization-and-CPU-coherency
+	url = https://github.com/matahho/OS_LAB4.git
