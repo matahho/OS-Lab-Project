@@ -12,6 +12,10 @@ This project is based on the XV6 open-source operating system developed by MIT. 
     - `ARROW-UP` and `ARROW-DOWN` for command history.
     - Cursor movement between characters.
     - Clear terminal function.
+    
+- [Phase 1 Description PDF](https://github.com/matahho/OS-Lab-Project/blob/main/Description/Lab1.pdf)
+- [Phase 1 Report](https://github.com/matahho/OS-Lab-Project/blob/main/Report/Lab1_report.pdf)
+- [Phase 1 Report images](https://github.com/matahho/OS-Lab-Project/blob/main/Report/Lab1_report_images.pdf)
 
 ### Phase 2: System Calls
 - **Objective**: Create and implement new system calls using register-based argument handling.
@@ -21,6 +25,9 @@ This project is based on the XV6 open-source operating system developed by MIT. 
   - Write additional system calls, such as:
     - `get_uncle_count`: Counts the number of "uncle" processes.
     - `get_process_lifetime`: Calculates the lifespan of a given process.
+  
+- [Phase 2 Description PDF](https://github.com/matahho/OS-Lab-Project/blob/main/Description/Lab2.pdf)
+- [Phase 2 Report](https://github.com/matahho/OS-Lab-Project/blob/main/Report/Lab2_report.pdf)
 
 ### Phase 3: Scheduler
 - **Objective**: Implement new scheduling features and prevent process starvation.
@@ -31,12 +38,18 @@ This project is based on the XV6 open-source operating system developed by MIT. 
     - **LCFS (Last Come First Serve)**
     - **BJF (Best Job First)**
   - Create system calls for scheduling functionalities, such as changing queues for process management.
-
+    
+- [Phase 3 Description PDF](https://github.com/matahho/OS-Lab-Project/blob/main/Description/LAB3.pdf)
+- [Phase 3 Report](https://github.com/matahho/OS-Lab-Project/blob/main/Report/Lab3_report.pdf)
+  
 ### Phase 4: Synchronization & CPU Coherency
 - **Objective**: Enhance process synchronization and measure CPU coherency.
 - **Tasks**:
   - Design and implement a `Priority Lock` for process synchronization based on priority, including `acquire` and `release` functions.
   - Introduce new variables in the CPU struct to track system calls per CPU, allowing experimentation with CPU coherency.
+
+- [Phase 4 Description PDF](https://github.com/matahho/OS-Lab-Project/blob/main/Description/LAB4.pdf)
+- [Phase 4 Report](https://github.com/matahho/OS-Lab-Project/blob/main/Report/Lab4_report.pdf)
 
 ### Phase 5: Shared Memory
 - **Objective**: Implement shared memory for inter-process communication.
@@ -44,7 +57,10 @@ This project is based on the XV6 open-source operating system developed by MIT. 
   - Develop shared memory allocation for XV6 processes.
   - Implement system calls for shared memory management, such as `open` and `close`.
 
-## Getting Started
+- [Phase 5 Description PDF](https://github.com/matahho/OS-Lab-Project/blob/main/Description/Lab5.pdf)
+- [Phase 5 Report](https://github.com/matahho/OS-Lab-Project/blob/main/Report/Lab5_report.pdf)
+ 
+ ## Getting Started
 
 1. **Cloning and Setting Up**: Clone the XV6 project and ensure all dependencies are met.
 2. **Build and Run**: Use `make` to build the project and `make qemu` to run in a virtual environment.
