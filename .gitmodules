@@ -1,3 +1,6 @@
 [submodule "phase-1-Basic-Commands"]
 	path = phase-1-Basic-Commands
 	url = https://github.com/matahho/OS_LAB1
+[submodule "phase-2-System-Calls"]
+	path = phase-2-System-Calls
+	url = https://github.com/matahho/OS_LAB2
