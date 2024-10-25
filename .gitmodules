@@ -10,3 +10,6 @@
 [submodule "phase-4-Synchronization-and-CPU-coherency"]
 	path = phase-4-Synchronization-and-CPU-coherency
 	url = https://github.com/matahho/OS_LAB4.git
+[submodule "phase-5-Shared-Memory"]
+	path = phase-5-Shared-Memory
+	url = https://github.com/matahho/OS_LAB5.git
